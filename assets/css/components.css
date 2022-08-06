@@ -1,0 +1,156 @@
+/* components */
+/* button */
+
+.btn{
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* start style of navbar */
+
+.header__nav{
+    background-color: #fff;
+}
+/* navbar brand */
+.header__nav__brand{
+    padding: 10px;
+}
+/* navbar list */
+.header__nav__navlist__list {
+    list-style: none;
+    padding: 10px;
+}
+/*  */
+.header__nav__button{
+    background-color: aqua;
+}
+.header__nav__button h4{
+    padding: 10px;
+}
+/* end style of navbar */
+.header__mainheader{
+    max-width: 100vw;
+}
+.header__mainheader__img{
+    width: 60%;
+}
+.header__mainheader__img img{
+    width: 60%;
+    height: 100%;
+}
+.header__mainheader--bg-defualt{
+    width: 40%;
+}
+.header__mainheader__poster{
+    width: 60%;
+    top: 200px;
+    left: 150px;
+}
+
+.header__mainheader__poster__buttoms{
+    top: 50px;
+}
+
+.header__mainheader__img__webimg0{
+    top: 23%;
+    right: 20%;
+    width: 20%;
+    transform: rotate(10deg);
+}
+.header__mainheader__img__webimg1{
+    top: 46%;
+    right: 20%;
+    width: 20%;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
+.header__mainheader__img__webimg2{
+    top: 41%;
+    right: 3%;
+    width: 20%;
+    transform: rotate(-22deg);
+}
+/* start style of header */
+
+/* end style of header */
+.item1 { grid-area: txt; }
+.item2 { grid-area: video;}
+
+.main__videoSection{
+    height: 100vh;
+    background-image: url(../img/main/bg-main.jpg);
+    display: grid;
+    grid-template-areas: 
+    "txt txt txt video video video";    
+    align-items: center;
+}
+.main__videoSection__txt{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.main__videoSection video{
+    width: 100%;
+}
+
+@media (max-width:768px){
+    .main__videoSection {
+        display: grid;
+        grid-template-areas: 
+        "video video video"
+        "txt txt txt";    
+        align-items: center;
+        justify-items: center;
+    }
+    .main__videoSection video{
+        width: 85%;
+    }
+}
+.halfVideo{
+    clip-path: inset(0% 0% 0% 75.1% round 4px);
+}
+
+.vidoe {
+    float: right;
+}
+
+.main__video{
+    width: 90vw;
+    margin: auto;
+    z-index: 1;
+}
+
+.main__video p{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.main__wonderFull{
+    background-color: #000;
+    height: 67vh;
+}
+
+.main__wonder__txt{
+    text-align: center;
+    position: relative;
+    color: #fff;
+    right: 0vh;
+    left: 0vh;
+    padding: 22px;
+    top: -45vh;
+}
+
+@media(max-width: 616px){
+    .main__wonderFull{
+        height: 46vh;
+    }
+    .main__wonderFull__img img{
+        width: 90%;
+    }
+    .main__wonder__txt{
+        top: -300px;
+    }
+}
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    background: rgb(249 249 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-header{
+    min-height: 100vh;
+    background-image: url(../img/header/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.bg-none{
+    background: none;
+}
+.header__mainheader img{
+    min-width: 100%;
+}
+
+.header__mainheader__txt{
+    text-align: center;
+}
+
+.hide{
+    display: none !important;
+}
